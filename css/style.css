@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: MyFont1;
+    src: url(../font/aoyagireisyosimo_otf_2_01.otf);
+}
+
+/* h1{
+    font-family: MyFont1;
+} */
+
+/* 共通パーツ */
+
+html{
+    font-size: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Yu Gothic Medium", "游ゴシック Medium", "YuGothic", "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+    line-height: 1.5;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    opacity: 0.7;
+}
+
+img{
+    max-width: 100px;
+}
+
+li{
+    list-style-type: none;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+section{
+    min-height: 100vh;
+    padding-bottom: 5%;
+    letter-spacing: 3px;
+}
+
+
+/* topページ */
+.top{
+    background-image: url(../img/fireworks1.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.title-space-vertical{
+    text-align: right;
+}
+.top-title{
+    writing-mode: vertical-rl;
+    font-size: 7.5em;
+    line-height: 0.95em;
+    font-weight: bold;
+    text-shadow: 
+        0 0 0.05em #f06292,
+        0 0 0.10em #f06292,
+        0 0 0.15em #f06292,
+        0 0 0.30em #f06292;
+    filter: saturate(80%);
+    font-family: MyFont1;
+    color: #fff;
+    padding-top: 22%;
+    display: inline-block;
+}
+.copy-position{
+    text-align: left;
+}
+.copy{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    writing-mode: vertical-rl;
+    font-size: 4em;
+    line-height: 2em;
+    letter-spacing: 0.3em;
+    font-weight: bold;
+    text-shadow: 
+        0 0 0.05em #f06292,
+        0 0 0.10em #f06292,
+        0 0 0.15em #f06292,
+        0 0 0.30em #f06292;
+    filter: saturate(80%);
+    font-family: MyFont1;
+    color: #fff;
+    padding-top: 5%;
+    margin-left: 3%;
+    text-align: center;
+}
+.big{
+    font-size: 1.5em;
+}
+.day{
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    font-size: 3em;
+    line-height: 2em;
+    letter-spacing: 0.3em;
+    font-weight: bold;
+    text-shadow: 
+        0 0 0.05em #e7e69df6,
+        0 0 0.10em #e7e69df6,
+        0 0 0.15em #e7e69df6,
+        0 0 0.30em #e7e69df6;
+    opacity: 0.8;
+    color: #fff;
+    margin-left: 3%;
+    text-align: left;
+    font-family: MyFont1;
+}
+.big1{
+    font-size: 2em;
+}
+
+
+
+
+
+
+
+
+/* レスポンシブ用 iPad */
+@media screen and (max-width: 768px){}
+
+
+
+/* レスポンシブ用 スマホ */
+@media screen and (max-width: 480px){}
