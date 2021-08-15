@@ -31,7 +31,7 @@ a:hover{
 }
 
 img{
-    max-width: 100px;
+    max-width: 100%;
 }
 
 li{
@@ -109,6 +109,10 @@ section{
 .logo-item{
     margin-right: 5%;
     height: 50%;
+}
+
+.logo-p{
+    max-width: 100px;
 }
 
 
@@ -204,7 +208,7 @@ section{
 
 .tp-table dt{
     width: 35%;
-    background-color: #64c4f0;
+    background-color: #333;
     color: #fff;
     border: 1px solid #e5e5e5;
     padding: 1em 4em;
@@ -239,6 +243,7 @@ section{
 .pick-up-logo{
     height: 4vh;
     width: auto;
+    max-width: 100px;
 }
 
 .pick-up-title{
@@ -252,6 +257,9 @@ section{
     width: 70%;
     margin: 0 auto;
 }
+
+
+
 
 
 
