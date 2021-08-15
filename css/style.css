@@ -258,6 +258,36 @@ section{
     margin: 0 auto;
 }
 
+/* access */
+.time-table{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.time-table dl{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.time-table dt{
+    width: 30%;
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #e5e5e5;
+    padding: 1em 4em;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.time-table dd{
+    width: 35%;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    padding: 1em 4em;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
 
 
 
