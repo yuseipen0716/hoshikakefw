@@ -11,6 +11,8 @@
     <!-- CSSのこと -->
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
     <link rel="stylesheet" href="./css/style.css">
+    <!-- スライダー -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css" />
 </head>
 <body>
     <header>
@@ -23,7 +25,7 @@
                     <ul>
                         <a class="nav-item" href="#information"><li>星駆花火大会について</li></a>
                         <a class="nav-item" href="#access"><li>アクセス</li></a>
-                        <a class="nav-item" href="gallery"><li>写真館</li></a>
+                        <a class="nav-item" href="#gallery"><li>写真館</li></a>
                     </ul>
                 </div>
             </div>
@@ -119,12 +121,35 @@
         </div>
     </section>
     <section class="gallery" id="gallery">
-        <div class="container">
+        <div class="title-space__mb7">
+            <h2>写真館</h2>
+        </div>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="./img/fireworks1.JPG" alt=""></div>
+                <div class="swiper-slide"><img src="./img/fireworks2.JPG" alt=""></div>
+                <div class="swiper-slide"><img src="./img/fireworks3.JPG" alt=""></div>
+                <div class="swiper-slide"><img src="./img/fireworks4.JPG" alt=""></div>
+                <div class="swiper-slide"><img src="./img/fireworks5.JPG" alt=""></div>
+                <div class="swiper-slide"><img src="./img/fireworks6.JPG" alt=""></div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-scrollbar"></div>
         </div>
     </section>
     <footer>
         <div class="container">
         </div>
     </footer>
+    <!-- JavaScriptの読み込み -->
+    <!-- jOuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js"></script>
+
+    <script type="text/javascript" src="./JS/script.js"></script>
+    </script>
 </body>
 </html>
