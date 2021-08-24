@@ -125,11 +125,13 @@ section{
     z-index: 0;
 }
 .title-space-vertical{
-    text-align: right;
+    position: absolute;
+    top: 5vh;
+    right: 3vh;
 }
 .top-title{
     writing-mode: vertical-rl;
-    font-size: 7.5em;
+    font-size: 5.5em;
     line-height: 0.95em;
     font-weight: bold;
     text-shadow: 
@@ -151,7 +153,7 @@ section{
     top: 50px;
     left: 50px;
     writing-mode: vertical-rl;
-    font-size: 4em;
+    font-size: 3em;
     line-height: 2em;
     letter-spacing: 0.3em;
     font-weight: bold;
@@ -174,7 +176,7 @@ section{
     position: absolute;
     bottom: 50px;
     left: 50px;
-    font-size: 3em;
+    font-size: 2em;
     line-height: 2em;
     letter-spacing: 0.3em;
     font-weight: bold;
