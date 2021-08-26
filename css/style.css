@@ -359,4 +359,72 @@ footer{
 
 
 /* レスポンシブ用 スマホ */
-@media screen and (max-width: 480px){}
+@media screen and (max-width: 480px){
+    .title-space__mb5{
+        font-size: 1.25em;
+    }
+    .title-space__mb7{
+        font-size: 1.25em;
+    }
+    .container-thin{
+        width: 90%;
+    }
+    .strong{
+        font-size: 1em;
+    }
+    .strong-soft{
+        font-size: 1em;
+    }
+    /* topページ */
+    .top{
+    background-image: url(../img/fireworks-tate.jpg);
+    }
+    .day{
+        font-size: 1.5em;
+    }
+    /* informaition */
+    .tp-table{
+        width: 100%;
+    }
+    .tp-table dt{
+        padding: 0.75em 0.25em;
+        font-size: 0.75em;
+        width: 20%;
+    }
+    .tp-table dd{
+        padding: 0.75em 0;
+        font-size: 0.75em;
+        width: 80%;
+    }
+    .pick-up-logo{
+        max-width: unset;
+    }
+
+    .fee-table dt{
+        width: 35%;
+    }
+    .fee-table dd{
+        width: 65%;
+    }
+
+    /* access */
+    .time-table dt{
+        width: 32%;
+        padding: 0.5em;
+    }
+    .time-table dd{
+        width: 34%;
+    }
+
+    /* footer */ 
+    .footer-logo img{
+        height: 7vh;
+    }
+
+    .footer-nav a{
+        font-size: 0.75em;
+    }
+    small p{
+        padding-top: 2vh;
+    }
+}
