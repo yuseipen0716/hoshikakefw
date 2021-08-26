@@ -153,7 +153,8 @@ section{
     top: 50px;
     left: 50px;
     writing-mode: vertical-rl;
-    font-size: 3em;
+    height: 70%;
+    font-size: 4.5vh;
     line-height: 2em;
     letter-spacing: 0.3em;
     font-weight: bold;
@@ -311,7 +312,7 @@ footer{
 .footer-content{
     display: flex;
     justify-content: space-around;
-    text-align: center;
+    text-align: justify;
     align-items: center;
 }
 
@@ -331,7 +332,29 @@ footer{
 
 
 /* レスポンシブ用 iPad */
-@media screen and (max-width: 768px){}
+@media screen and (max-width: 768px){
+    /* informaition */
+    .tp-table{
+        width: 100%;
+    }
+    .tp-table dt{
+        padding: 0.5em 1em;
+    }
+    .tp-table dd{
+        padding: 0.5em 1em;
+    }
+
+    /* access */
+    .time-table{
+        width: 100%;
+    }
+    .time-table dt{
+        padding: 0.5em 1em;
+    }
+    .time-table dd{
+        padding: 0.5em 1em;
+    }
+}
 
 
 
