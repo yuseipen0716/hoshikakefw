@@ -116,6 +116,7 @@ section{
 }
 
 
+
 /* topページ */
 .top{
     background-image: url(../img/fireworks1.JPG);
@@ -197,6 +198,9 @@ section{
 }
 
 /* information */
+.mamewaza_weather{
+    margin-bottom: 3vh;
+}
 .tp-table{
     margin-bottom: 5vh;
     width: 50%;
