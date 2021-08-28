@@ -336,6 +336,9 @@ footer{
 
 /* レスポンシブ用 iPad */
 @media screen and (max-width: 768px){
+    section{
+        max-width: 100%;
+    }
     /* informaition */
     .tp-table{
         width: 100%;
@@ -363,6 +366,9 @@ footer{
 
 /* レスポンシブ用 スマホ */
 @media screen and (max-width: 480px){
+    section{
+        max-width: 100%;
+    }
     .title-space__mb5{
         font-size: 1.25em;
     }
