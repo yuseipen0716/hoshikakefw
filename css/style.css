@@ -391,6 +391,9 @@ footer{
     .day{
         font-size: 1.5em;
     }
+    .top-title{
+        font-size: 4.5vh;
+    }
     /* informaition */
     .tp-table{
         width: 100%;
